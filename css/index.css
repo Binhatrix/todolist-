@@ -49,7 +49,7 @@ h6 {
 header {
   padding-top: var(--spacing-medium);
   padding-bottom: var(--spacing-medium);
-  background-color: var(--color-interface-dark);
+  background-color: var(--color-interface-light);
 }
 
 .header-item {
@@ -77,7 +77,7 @@ header>div.container {
 .title {
   line-height: 1.5;
   letter-spacing: -1px;
-  font-weight: 300;
+  font-weight: 500;
   color: var(--color-text-light);
 }
 
@@ -93,13 +93,14 @@ header>div.container {
 }
 
 .sessao-primaria {
-  background-color: var(--color-interface-dark);
+  background-color: var(--color-interface-light);
 }
 
 .sessao-secundaria {
   height: 100vh;
   border: 2px solid var(--color-text-light);
   border-radius: 0 50px 0 0;
+  background: var(--color-common-light);
 }
 
 
@@ -117,6 +118,8 @@ header>div.container {
 
 .form-task-label {
   color: var(--color-text-dark);
+  font-weight: 700;
+
 }
 
 .form-task-input {
