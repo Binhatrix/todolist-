@@ -49,6 +49,7 @@ h6 {
 header {
   padding-top: var(--spacing-medium);
   padding-bottom: var(--spacing-medium);
+  background-color: var(--color-interface-dark);
 }
 
 .header-item {
@@ -59,6 +60,7 @@ header {
   display: flex;
   justify-content: space-between;
 } */
+
 
 .button {
   border: 0;
@@ -83,6 +85,10 @@ header {
   width: 94%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sessao-primaria {
+  background-color: var(--color-interface-dark);
 }
 
 .avatar {
