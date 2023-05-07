@@ -99,9 +99,13 @@ header {
 
 .form-task {
   margin-top: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
+  
 }
 
 .form-task-label {
+  color:var(--color-text-dark);
+
 
 }
 
