@@ -107,10 +107,13 @@ header {
   color:var(--color-text-dark);
 
 
+
 }
 
 .form-task-input {
-
+  width: 80%;
+  height: var(--spacing-xlarge);
+  
 }
 
 .form-task-button {
