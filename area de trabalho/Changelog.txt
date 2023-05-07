@@ -1,0 +1,168 @@
+Mouse Recorder Pro 2 Update Log:
+
+Mouse Recorder Pro 2.0.5.0:
+
+-Fixed the hidden toolbar showing up on unnecessary events (mouse moved away from the toolbar region before the show up delay).
+
+-Added the option to use shortcut keys for recording and playing without the need of holding a modifier key (alt, ctrl, shift, win),
+you can start\stop a recording\playing by only pressing one key after setting "None" instead of alt\ctrl\shift\win in the settings window (Edit > Settings)
+look for the "Interaction Keys" region under the General tab.
+
+-Added an option to show a save as dialog instead of saving the script right away to the scripts directory on new scripts after pressing the save button,
+this option can be turned on by going to Edit > Settings > More and checking the "Show a save dialog on new scripts instead of saving to the scripts directory".
+
+-Added an option to show an overwrite dialog on exiting scripts instead of saving right away.
+this option can be turned on by going to Edit > Settings > More and checking the "Show an overwrite dialog if script already exists".
+
+-Fixed the "Pop up MRP right after a recording/playing" feature, now MRP will pop to the top windows
+z-order instead of being behind other windows.
+
+-Mouse Recorder Pro 2 now supports DirectX games (Now you can play a script in a DirectX game and it will be played correctly).
+
+-Improved the "Script Playing Speed" feature at the Advanced menu, now it's alot more easier to increase or reduce the script playing
+speed instead of editing the script...! (This menu can be found at the main MRP window by pressing the "Advanced" button).
+
+-Fixed the script not being repeated bug occuring when user doesn't use the shortcut keys to stop a recording.
+
+-Added a delay of 1 second after each script playing, this fixes the bug that occures when the script playing calls MRP to record.
+
+-Added an option in Mouse Recorder Pro Editor to drag any set of selected script items and move it to another location in the script using Drag & Drop!
+
+-Fixed MRP editor Ctrl + T shortcut issue - multiple function used the same shortcut instead of one.
+
+-Added a new button for MRP editor - this button replaces words/sentences the user recorded (working only on words once, with no corrections).
+
+-Added a new feature in the add "Start Process" event dialog that allows the user to decide the window style to open the process with.
+
+-Added shortcut keys text to MRP Editor buttons tooltips.
+
+-Fixed the limit of the custom every 100 Minutes/Hours/Etc...  in the MRP Calendar event adding.
+
+-MRP Calendar uses a new method to compare times - this method is more reliable and fixes the script not playing bug when time arrives.
+
+-A new welcome screen now appears instead of the old welcome screen design.
+
+-Added a small hidden easter egg.
+
+-------------------------------------------------------------
+Mouse Recorder Pro 2.0.4.0:
+
+-Mouse Recorder Pro now required Microsoft .Net Framework 3.5 because of Windows 7 Support.
+
+-Added a new hidden toolbar menu! put your mouse on the top middle of your screen, you are now
+able to see the new hidden menu that makes the recording, playing, and other tasks easier...!
+
+-Fixed main window title bar not being updated after loading a script.
+
+-Fixed a bug after clicking the Save button nothing happens when animated buttons are disabled.
+
+-Fixed arrow keys bug, arrow keys wore treated like the numeric arrow keys, now the arrow keys
+are treated correctly.
+
+-Added a new menu item to the help menu called "Help Videos" that directs the user to Nemex Studios youtube channel
+with different tutorial.
+
+-Added some new startup parameters\arguments like "-record" to start a recording immediatly and "-play" to play a script("-autorun" does the same effect), if there is no script loaded the load script
+dialog will popup. you may use "-close" to close the application instead of using "-end" (the same effect).
+
+-Added support to Windows 7 new taskbar features: you can now take control over your scripts using the jumplist feature in
+windows 7. You are now able to see the progress of Mouse Recorder Pro tasks by just looking at the taskbar.
+
+-Fixed mouse and keyboard recording bugs with Windows 7, Mouse Recorder Pro stopped tracking the mouse and\or the keyboard
+in certain situations (Because of the LowLevelHookTimeOut).
+
+-Mouse Recorder Pro 2 will now minimize to the taskbar when recording\playing and show the appropriate icon in each case on
+Windows 7 instead of minimizing to the tray icon (On Windows XP and Vista MRP will still minimize to tray).
+
+-By default now MRP will not minimize itself to the tray icons when the user clicks on the minimize button, this feature can be enabled via the settings menu.
+
+-------------------------------------------------------------
+Mouse Recorder Pro 2.0.3.0:
+
+-Fixed compatibility issues with Windows 7/Vista with UAC on.
+
+-Changed in application window icon to MRP2.0.2.0 icon.
+
+-All files are now being saved (Except MRP scripts) on the AppData\Roaming\Mouse Recorder Pro directory.
+
+-MRP Scripts default save directory changed to Documents\My Recorded Scripts.
+
+-Fixed an issue where changing default scripts save directory still creates a new script on the default MRP2 location when opening MRP2.
+
+-Now you can play your script infinite number of times by setting 0 at the Advanced > Number of times box.
+
+-Now you can set your script to be replayed more than 1500 times.
+
+-Added an option to MRP Calendar that allows you to play a script a number of times at a scheduled time/date.
+
+-Mouse Recorder Pro Editor: Some icons have been resized.
+
+-Mouse Recorder Pro Editor: New functions: combine close delay events, add a mouse left and right mouse clicks is now more simple,
+change all same type events with a custom input, add a mouse position event by setting the mouse on the
+location you want and pressing "Alt + X", close all open events (like mouse down, or key down),
+add delay event after each event. (Some functions were added by suggestions, I appreciate it!)
+
+-Mouse Recorder Pro Editor: Fixed "Reduce/Increase" function, now the "Reduce" function will work
+as described. (for example: choosing "60% to reduce will make your script 60% faster) 
+
+-Mouse Recorder Pro Editor: added a missing key on the keypress event: the windows key.
+
+-Mouse Recorder Pro Editor: New buttons for new and some old functions.
+
+-New script handling system, MRP and MRP Editor are now synchronized.
+
+-While recording and pressing the "Stop" button on MRP, MRP Minitoolbar, and context menu Mouse Recorder Pro will ignore that.
+
+-Repeat script playing bug seems to be fixed, now script repeat should work fine.
+
+-------------------------------------------------------------
+Mouse Recorder Pro 2.0.2.0:
+
+-Added a new feature in MRPEditor which allows you to reduce or increase a script
+speed by a certain percentage.
+
+-A new icon for Mouse Recorder Pro 2!
+
+-Added the option to play a task every couple of hours in MRP Calendar.
+
+-Fixed a wrong key mapping "\" (Bug reported).
+
+-Fixed mouse recording accuracy, Mouse Recorder Pro is now much more accurate
+then ever!
+
+-Fixed a mouse tracing bug with gaming mouses (like the Logitech G5) where
+MRP couldn't record well mouse movements (Bug reported).
+
+-Added a feature that tells MRP no to pop up after a recording/playing (can be found in the Settings window).
+
+-This version is more "CPU" friendly.
+
+Notes: This new version can load old MRP2 scripts (MRP2 - MRP2.0.1.0), but older MRP2 versions will not be able
+to load any of the newely created scripts of MRP 2.0.2.0 (or old modified script by MRP 2.0.2.0).
+Also, if you would like do increase or reduce a script speed use MRPEditor new button "Reduce/Increase Delays" instead of removing delay events,
+removing delays events will cause the script to run too much fast that the computer will not be able to respone certain
+tasks(if you still wish to remove all delays, you can add a delay between each event in the Advanced window of MRP2).
+
+
+-------------------------------------------------------------
+
+Mouse Recorder Pro 2.0.1.0:
+
+-Mouse scrolling fixed. (you can change scrolling method
+manualy in the settings window).
+
+-Mouse Recorder Pro Editor application updated.
+
+-A new event added "Start Process" Event,
+user will be able to open an application without
+the need of recording it (can be added in MRP Editor
+application).
+
+-Added a new application called "MRPlay", now you will
+be able to open your scripts by using shortcuts!
+
+-Fixed "white" marker on the icons.
+
+Any bugs, errors, things you wish to be added
+please send me an email at:
+shynet@gmail.com

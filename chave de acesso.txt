@@ -1,0 +1,10 @@
+43221145242914000873550010001830061084937944
+
+Ed@11711
+edvaldo.neto@jtexpress.com.br
+
+quando o pedido é integrado o seller fornece o número da NFe, onde o mesmo poderá ser consultado qual NCM está citado.
+
+
+
+4. 同时可以从JMS中导出报表
