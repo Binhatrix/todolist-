@@ -121,7 +121,8 @@ height: var(--spacing-xlarge)
 }
 .tarefas-line{
   display: flex;
-  text-decoration: line-through;
+  text-decoration: line-through;  
+  padding:var(--spacing-xsmall)
 }
 
 .tarefas-line-sec{
@@ -130,3 +131,12 @@ height: var(--spacing-xlarge)
   
 }
 
+.tarefas-line p{
+  width: 100%;
+  padding: 15px;
+}
+
+.tarefas-line-sec p{
+  width: 100%;
+  padding: 15px;  
+}
