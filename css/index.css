@@ -124,3 +124,9 @@ height: var(--spacing-xlarge)
   text-decoration: line-through;
 }
 
+.tarefas-line-sec{
+  display: flex;
+  padding:var(--spacing-xsmall);
+  
+}
+
