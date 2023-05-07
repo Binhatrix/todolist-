@@ -105,18 +105,18 @@ header {
 
 .form-task-label {
   color:var(--color-text-dark);
-
-
-
 }
 
 .form-task-input {
   width: 80%;
   height: var(--spacing-xlarge);
-  
 }
 
 .form-task-button {
+background-color: var(--color-brand-secondary);
+color: var(--color-common-light);
+border-radius: 20%;
+
   
 }
 
