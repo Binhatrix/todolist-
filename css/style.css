@@ -99,7 +99,7 @@ header>div.container {
 .sessao-secundaria {
   height: 100vh;
   border: 1px solid var(--color-common-dark);
-  border-radius: 0 50px 0 0;
+  border-radius: 0 45px 0 0;
   background: var(--color-common-light);
 }
 
@@ -156,7 +156,27 @@ header>div.container {
   padding: 15px;
 }
 
+
 .tarefas-line-sec p {
   width: 100%;
   padding: 15px;
 }
+
+/* media queries para Iphone SE 375
+@media screen and (min-width: 375px){
+  body {
+  font-size: 18px;
+  }
+  
+  .container {
+  max-width: 375px;
+  margin: 0 auto;
+  }
+  
+  .header-item {
+  display: none;
+  }
+  
+}
+
+*/
